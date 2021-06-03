@@ -1,0 +1,29 @@
+/*VALIDACIONES*/
+input.error {
+    /*background-color: #f2f2f2 !important;
+                     */
+    border: 1px solid #FC4B6C !important;
+
+}
+
+td.field input.error, td.field select.error, tr.errorRow td.field input, tr.errorRow td.field select, td.field textarea.error {
+    /*background-color: #f2f2f2 !important;
+    */
+    border: 1px solid #FC4B6C !important;
+    color: #FC4B6C;
+    margin: 0;
+
+}
+
+.tdtextarea.error {
+    /*background-color: #f2f2f2 !important;
+    */
+    border: 1px solid #FC4B6C !important;
+    color: #FC4B6C;
+    margin: 0;
+}
+
+label {
+    display: inline !important;
+    margin-bottom: .5rem;
+}
